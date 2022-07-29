@@ -5,8 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Third Assignment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
 </head>
+
 <body>
+
+    <header>
+        <!-- navigation bar -->
+
+        <section class="">
+            <div class="flex justify-around mx-auto pt-6">
+                <div>
+                    <img src="images/company/company-2.png" class="" alt="">
+                </div>
+                <div class="flex justify-center">
+                    <a href="#" class="text-slate-400 px-4 ">Home</a>
+                    <a href="#" class="text-slate-400 px-4">Our Courses</a>
+                    <a href="#" class="text-slate-400 px-4">Features</a>
+                    <a href="#" class="text-slate-400 px-4">About</a>
+                    <a href="#" class="text-slate-400 px-4">Subscribe</a>
+    
+                </div>
+                <div>
+                    <button class="border border-1 border-orange-600 p-1 text-orange-600 hover:bg-orange-500 hover:text-white">Sign up</button>
+                </div>
+            </div>
+        </section>
+    </header>
     
 </body>
 </html>
